@@ -15,7 +15,6 @@ function toggleTheme() {
     }
 }
 
-// Initialize theme on page load
 function initTheme() {
     const savedTheme = localStorage.getItem('theme') || 'light';
     const themeToggle = document.getElementById('themeToggle');
